@@ -1,5 +1,15 @@
-#include<stdio.h>
-Void main()
+#include <iostream>
+
+int main()
 {
-int main=80;
+    int firstNumber;
+    int secondNumber;
+
+    std::cout << "Enter two numbers: ";
+    std::cin >> firstNumber >> secondNumber;
+
+    int sum = firstNumber + secondNumber;
+    std::cout << "Sum = " << sum << std::endl;
+
+    return 0;
 }
